@@ -1,0 +1,39 @@
+{
+  "id": "5bb5bb67-6fa6-4f14-bd63-f87bb08ebea4",
+  "timestamp": "2018-02-10T06:49:41.937Z",
+  "lang": "en",
+  "result": {
+    "source": "agent",
+    "resolvedQuery": "Book a ticket from Delhi to San Francisco on Feb 20th",
+    "action": "action_book_flight",
+    "actionIncomplete": false,
+    "parameters": {
+      "Source": "Delhi",
+      "Destination": "san francisco",
+      "on": "2018-02-20"
+    },
+    "contexts": [],
+    "metadata": {
+      "intentId": "8f84a34b-b703-4e46-8a66-fa128144c1b2",
+      "webhookUsed": "false",
+      "webhookForSlotFillingUsed": "false",
+      "intentName": "Flight_booking_assistant"
+    },
+    "fulfillment": {
+      "speech": "",
+      "messages": [
+        {
+          "type": 0,
+          "speech": ""
+        }
+      ]
+    },
+    "score": 1
+  },
+  "status": {
+    "code": 200,
+    "errorType": "success",
+    "webhookTimedOut": false
+  },
+  "sessionId": "59a0dd95-2e8e-4659-a0ae-05d444337bc2"
+}
